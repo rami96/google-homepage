@@ -10,6 +10,7 @@ body{
     /*justify-content: center;
     align-items: center;*/
     position: relative;
+    font-family: arial,sans-serif;
 }
 
 #main{
@@ -36,7 +37,7 @@ button{
     border-radius: 3px;
     margin: 0 4px;
     width: 150px;
-    color: rgb(53, 53, 53);
+    color: #5f6368);
 }
 
 .offered{
@@ -46,10 +47,15 @@ button{
     margin-top: 10px;
     align-items: center;
 }
+
+.offered a{
+    color: #1a0dab;
+}
+
 a{
     text-decoration: none;
     margin: 0 10px;
-    color: rgb(36, 36, 41);
+    color: #5f6368;
 }
 
 #topli{
@@ -70,19 +76,43 @@ li{
 }
 
 .footer{
-    background: rgb(236, 236, 236);
+    background: #f2f2f2;
     position: fixed;
     width: 100%;
     bottom: 0px;
+    margin: 0px auto;
+    color: rgba(0,0,0,.54);
     
+    font-size: 15px;
 }
 
+.country{
+    width: 95%;
+    height: 30px;
+    margin: 0 auto;
+    
+}
+hr{
+    margin: 0px;
+}
 #legal{
+    width: 95%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
+    height: 45px;
+    margin: 0 auto;
 }
+
 #legal ul{
-    padding-inline-start: 0px;
+    margin:0px;
+    padding: 0px;
+}
+
+#legal p{
+    margin-right: 10px;
+    color:#5f6368;
+}
+hr{
+    opacity: .3;
 }
